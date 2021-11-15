@@ -4,9 +4,9 @@
 
 berikut ini adalah tampilan programnya <p>
 ![gambar1](ssgambar/ss1.png.png)
-berikut adalah saat program runnning 
+berikut adalah saat program runnning <p>
 ![gambar2](ssgambar/ss2.png.png)
-berikut adalah flowchart dari program tersebut
+berikut adalah flowchart dari program tersebut<p>
 ![gambar3](ssgambar/ss3.png.png)
 
 
@@ -21,7 +21,7 @@ ini adalah tampilan dari programn tersebut <p>
 ### Buat program dengan perulangan bertingkat (nested) for.
 berikut ini adalah programnya <p>
 ![gambar6](ssgambar/ss6.png.png)
-berikut adalah saat program running
+berikut adalah saat program running<p>
 ![gambar7](ssgambar/ss7.png.png)
 penjelasan:<p>
 - Variabel Pendeklarasian<p>
