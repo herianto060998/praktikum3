@@ -2,7 +2,6 @@
 ## LAB 2 - 1 
 ### Program sederhada dengan input 2 buah bilangan, kemudian tentukan bilangan terbesar dari kedua bilangan.
 
-
 berikut ini adalah tampilan programnya <p>
 ![gambar1](ssgambar/ss1.png.png)
 
@@ -11,6 +10,14 @@ berikut adalah saat program runnning <p>
 
 berikut adalah flowchart dari program tersebut<p>
 ![gambar3](ssgambar/ss3.png.png)
+
+penjelasan:<p>
+- variabel pendeklerasiaan untuk sistem penginputan saat running <p>
+A=int(input("Masukkan nilai A : "))
+B=int(input("Masukkan nilai B : "))
+- untuk mencari bilangan terbesar dari 2 bilangan algoritmanya yang dimasukkan akan membandingkan terlebih dahulu apakah A > B dan B < A<p>
+- jika A > B maka sistem akan menampilkan nilai dari A 
+- tetapi jika else 
 
 
 ## LAB 2 - 2
