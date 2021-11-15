@@ -156,3 +156,27 @@ berikut ini adalah programnya <p>
 berikut ini adalah program saat running <p>
 ![gambar18](ssgambar/ss18.png.png)
 
+berikut ini flowchart dari program tersebut<p>
+![gambar19](ssgambar/ss19.png.png)
+
+pseudocode:<p>
+- start<p>
+- gunakaan inisial a,b,c sebagai intenjer.<p>
+- baca A<p>
+- baca B<p>
+- baca C<p>
+- jika A > B dan A < C:<p>
+- cetak "bilangan terbesar dari 3 inputan ", A<p>
+- elif B > A dan B > C:<p>
+- cetak "bilangan terbesar dari 3 inputan",B<p>
+- else<p>
+- cetak "bilangan terbesar dari 3 inputan", C<p>
+- cetak " nilai terbesar yang diinputkan "<p>
+- berhenti<p>
+
+penjelasan:<p>
+- untuk mencari bilangan terbesar dari 3 bilangan algoritmanya yang dimasukkan akan membandingkan terlebih dahulu apakah A > B.<p>
+- jika A > B,maka ada 2 kadidat bilangan terbesar,yaitu A dan C sehingga perlu dilakukan pengujian yang lebih besar dari A dan C dengan membandingkan nilai B dan C. jika nilai B ternyata lebih besar dari C, maka bilangan terbesar adalah A.nilai terbesar adalah C jika ternyata C lebih besar dari A.<p>
+- .jika kondisi A > B tidak terpenuhui(atau B <=A),maka 2 kadidat bilangan terbesar adalah B dan C.jika nilai C ternyata lebih kecil dari A,maka B adalah nilai terbesar,sedangkan jika C yang lebih besar dari B ,maka yang terbesar adalah C.<p>
+
+
