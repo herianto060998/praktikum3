@@ -11,23 +11,41 @@ berikut adalah saat program runnning <p>
 berikut adalah flowchart dari program tersebut<p>
 ![gambar3](ssgambar/ss3.png.png)
 
+pseudocode:<p>
+- A dan B sebagai variabel int dari inputan<p>
+- masukkan nilai dari A dan B <p>
+- program akan membaca apakah A > B dan B > A 
+- sistem akan menampilkan nilai terbesar dari antara variabel A atau B jika A > B atau B > A<p> 
+
 penjelasan:<p>
 - variabel pendeklerasiaan untuk sistem penginputan saat running <p>
-A=int(input("Masukkan nilai A : "))
-B=int(input("Masukkan nilai B : "))
+A=int(input("Masukkan nilai A : "))<p>
+B=int(input("Masukkan nilai B : "))<p>
 - untuk mencari bilangan terbesar dari 2 bilangan algoritmanya yang dimasukkan akan membandingkan terlebih dahulu apakah A > B dan B < A<p>
-- jika A > B maka sistem akan menampilkan nilai dari A 
-- tetapi jika else 
+- jika A > B maka sistem akan menampilkan nilai dari A <p>
+- tetapi jika nilai B > A maka sistem akan menampilkan nilai dari B <p>
 
 
 ## LAB 2 - 2
-### program untuk mengurutkan data berdasarkan input sejumlahdata (minimal 3 variable input atau lebih),kemudian tampilkan hasilnya secara berurutan mulai dari data terkecil.
+### program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih),kemudian tampilkan hasilnya secara berurutan mulai dari data terkecil.
 
 berikut ini adalah tampilan dari programnya <p>
 ![gambar4](ssgambar/ss4.png.png)
 
 berikut ini adalah tampilan dari programnya<p>
 ![gambar5](ssgambar/ss5.png.png)
+
+penjelasan :<p>
+
+- A,B,C,D sebagai variabel dari sebuah inputan 
+- untuk memasukkan nilai dari sebuah inputan kita menggunakan int dan input contoh :<p>
+A=int(input("bilangan ke-1:"))<p>
+B=int(input("bilangan ke-2:"))<p>
+C=int(input("bilangan ke-3:"))<p>
+D=int(input("bilangan ke-4:"))<p>
+- masukkan nilai dari A,B,C,D <p>
+- luas = [ A, B, C, D,] adalah sebuah perintah bahwa pemisah dari hasil inputan adalah koma  
+- untuk membuat agar hasil dari inputan berurutan mulai dari data terkecil menggunakan sorted
 
 # TUGAS LAB 3
 ## Lab 3 - 1
