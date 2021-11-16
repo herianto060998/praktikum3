@@ -85,15 +85,27 @@ berikut ini adalah program saat running<p>
 berikut ini flowchart dari program tersebut<p>
 ![gambar10](ssgambar/ss10.png.png)
 
+pseudocode<p>
+- import random memanggil file random.<p>
+- n = int(input("Masukan nilai N : ")) input variabel n, tipe data integer.<p>
+- for c in range(n) : looping for index c dengan jumlah perulangan sebanyak n.<p>
+- b = random.uniform(.0,.5) variabel a berisikan angka acak dari 0.0 sampai 0.5.<p>
+- print("Data ke : ",a,"==>",b) print data ke : a = index looping b = angka random.<p>
+
 penjelasan<p>
-- menggunakan  modul import random untuk membuat bilangan acak<p>
-- Untuk menentukan jumlah input yang diinginkan dan konversi ke dalam bilangan bulat (integer) yang dimasukan ke variabel(n), n = int(input("masukkan nilai;"))<p>
-- untuk membuat urutan dari inputan tersebut mengunakan a=0 ,a+=1 yang menandakan urutan tersebut dimulai dari 1 dan ditambah 1 <p>
-- untuk membuat rentang retret yang diinputkan oleh variabel (n) ,for c in range (n): <p>
-- Untuk menampilkan urutan data sesuai jumlah inputan dengan hasil di bawah 0.5<p>
-    a+= 1<p>
-   b = random.uniform(.0,.5)<p>
-   print('data ke:', a, '==>', b)<p>
+- Ketikan Program import random<p>
+import random memanggil file secara acak.<p>
+- ketikan program n = int(input("Masukan nilai N : "))<p>
+n = int(input("Masukan nilai N : ")) input variabel n, tipe data integer.<p>
+- Program ketikan a=0<p>
+- ketikan program untuk c dalam range(n) :<p>
+for c in range(n) : looping for index c dengan jumlah perulangan sebanyak n.<p>
+- ketikan program a+=1<p>
+a+=1, setiap perulangan nilai akan bertambah 1<p>
+- ketikan program b = random.uniform(.0,.5)<p>
+b = random.uniform(.0,.5) variabel yang berisikan angka acak dari 0.0 sampai 0.5.<p>
+- ketikan program print("Data ke : ",a,"==>",b)<p>
+print("Data ke : ",a,"==>",b) print data ke : a = perulangan indeks b = angka acak sesuai <p>
 
 # LABPY02
 ## LATIHAN 1 
@@ -195,15 +207,27 @@ berikut ini adalah program saat running<p>
 berikut ini adalah flowchart dari program tersebut<p>
 ![gambar10](ssgambar/ss10.png.png)
 
+peseudocode <p>
+- import random memanggil file random.<p>
+- n = int(input("Masukan nilai N : ")) input variabel n, tipe data integer.<p>
+- for c in range(n) : looping for index c dengan jumlah perulangan sebanyak n.<p>
+- b = random.uniform(.0,.5) variabel a berisikan angka acak dari 0.0 sampai 0.5.<p>
+- print("Data ke : ",a,"==>",b) print data ke : a = index looping b = angka random .<p>
+
 penjelasan<p>
-- menggunakan  modul import random untuk membuat bilangan acak<p>
-- Untuk menentukan jumlah input yang diinginkan dan konversi ke dalam bilangan bulat (integer) yang dimasukan ke variabel(n), n = int(input("masukkan nilai;"))<p>
-- untuk membuat urutan dari inputan tersebut mengunakan a=0 ,a+=1 yang menandakan urutan tersebut dimulai dari 1 dan ditambah 1 <p>
-- untuk membuat rentang retret yang diinputkan oleh variabel (n) ,for c in range (n): <p>
-- Untuk menampilkan urutan data sesuai jumlah inputan dengan hasil di bawah 0.5<p>
-    a+= 1<p>
-   b = random.uniform(.0,.5)<p>
-    print('data ke:', a, '==>', b)<p>
+- Ketikan Program import random<p>
+import random memanggil file secara acak.<p>
+- ketikan program n = int(input("Masukan nilai N : "))<p>
+n = int(input("Masukan nilai N : ")) input variabel n, tipe data integer.<p>
+- Program ketikan a=0<p>
+- ketikan program untuk c dalam range(n) :<p>
+for c in range(n) : looping for index c dengan jumlah perulangan sebanyak n.<p>
+- ketikan program a+=1<p>
+a+=1, setiap perulangan nilai akan bertambah 1<p>
+- ketikan program b = random.uniform(.0,.5)<p>
+b = random.uniform(.0,.5) variabel yang berisikan angka acak dari 0.0 sampai 0.5.<p>
+- ketikan program print("Data ke : ",a,"==>",b)<p>
+print("Data ke : ",a,"==>",b) print data ke : a = perulangan indeks b = angka acak sesuai ><p>
 
 ## LATIHAN 2
 ### Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan. Masukkan angka 0 untuk berhenti.
@@ -226,20 +250,20 @@ pseudocode<p>
 - print('Bilangan terbesarnya adalah = ',max) print nilai terbesar, variabel max<p>
 
 penjelasan<p>
-Ketikan Program maks= 0<p>
-- max= 0 kode max disini untuk menentukan nilai max nya dalah 0<p>
-Ketikan Program saat benar :<p>
-- while true: Untuk perulangan hingga waktu yang tidak ditentukan atau selamanya<p>
-Ketikan Program a=int(input("Masukan Bilangan :"))<p>
-- a=int(input("Masukan Bilangan :")) a untuk menginput tipe data interger ( bilangan bulat )<p>
+- Ketikan Program maks= 0<p>
+max= 0 kode max disini untuk menentukan nilai max nya dalah 0<p>
+- Ketikan Program saat benar :<p>
+while true: Untuk perulangan hingga waktu yang tidak ditentukan atau selamanya<p>
+- Ketikan Program a=int(input("Masukan Bilangan :"))<p>
+a=int(input("Masukan Bilangan :")) a untuk menginput tipe data interger ( bilangan bulat )<p>
 Program ketikan jika max < a<p>
-Ketikan Program max=a<p>
-- if max < a max=a jika max kurang dari a maka max = a<p>
-Program ketikan jika a==0 :<p>
-Ketikan Program istirahat<p>
-- if a==0: break jika a= 0 maka akan berhenti dengan syarat break yang terpenuhi<p>
-Ketikan Program print("Bilangan Tebesarnya Adalah :", max)<p>
-- print("Bilangan Tebesarnya Adalah :", max)*Bilangan Tebesar Adalah : Nilai maxiumnya<p>
+- Ketikan Program max=a<p>
+if max < a max=a jika max kurang dari a maka max = a<p>
+- Program ketikan jika a==0 :<p>
+- Ketikan Program istirahat<p>
+if a==0: break jika a= 0 maka akan berhenti dengan syarat break yang terpenuhi<p>
+- Ketikan Program print("Bilangan Tebesarnya Adalah :", max)<p>
+print("Bilangan Tebesarnya Adalah :", max)*Bilangan Tebesar Adalah : Nilai maxiumnya<p>
 
 ## PROGRAM 1
 ### Buat repository baru labpy03
@@ -270,26 +294,26 @@ pseudocode<p>
 - print('TOTAL LABA YANG DI DAPAT ADALAH :',sum) print total laba.<p>
 
 penjelasan<p>
-program ketikan<p>
-- x=100000000 modal 100.000.000, variabel x.<p>
-Ketikan jumlah program=0<p>
-- sum=0 kode sum disini untuk menentukan jumlah total laba<p>
-program kapan<p>
-- y=0 y= untuk variabel masa bulan<p>
-ketikan program lb = [int(0), int(0), int(x) * .1, int(x) * .1, int(x) * .5, int(x) * .5, int(x )* .5, int(x) * .2]<p>
-- lb = [int(0), int(0), int(x) * .1, int(x) * .1, int(x) * .5, int(x) * .5, int(x )* .5, int(x) * .2] Untuk Mendeklarasikan presentase laba tiap bulan dan di kali dengan x atau data inputan modal investasi yaitu 100000000<p>
-ketikan program print("Modal Awal Seorang Pengusaha :',x")<p>
-- print(" Modal Awal Seorang Pengusaha :',x") menyaksikan kalimat *Modal Awal : dan data yang berisi di x yaitu 100000000<p>
-ketikan program untuk i in lb :<p>
-- for i in lb : looping for index i dengan mengambil data dari lb.<p>
-ketikan program sum=sum+i<p>
-- sum=sum+i rumus untuk menghitung total laba perbulan.<p>
-kapann program y+1<p>
-- y+=1, masa bulan tiap perulangan menambah 1.<p>
-print('Laba Bulan Ke-', y ,'Sebesar :',i)<p>
-- print('Laba Bulan Ke-', y ,'Sebesar :',i) print : y = ambil masa bulan, i = ambil dari data yang ada di dalam lb.<p>
-print('JUMLAH LABA YANG DI DAPAT ADALAH :',jumlah)<p>
-- print('TOTAL LABA YANG DI DAPAT ADALAH :',jumlah) print total laba.<p>
+- program ketikan<p>
+ x=100000000 modal 100.000.000, variabel x.<p>
+- Ketikan jumlah program=0<p>
+sum=0 kode sum disini untuk menentukan jumlah total laba<p>
+- program kapan<p>
+y=0 y= untuk variabel masa bulan<p>
+- ketikan program lb = [int(0), int(0), int(x) * .1, int(x) * .1, int(x) * .5, int(x) * .5, int(x )* .5, int(x) * .2]<p>
+lb = [int(0), int(0), int(x) * .1, int(x) * .1, int(x) * .5, int(x) * .5, int(x )* .5, int(x) * .2] Untuk Mendeklarasikan presentase laba tiap bulan dan di kali dengan x atau data inputan modal investasi yaitu 100000000<p>
+- ketikan program print("Modal Awal Seorang Pengusaha :',x")<p>
+print(" Modal Awal Seorang Pengusaha :',x") menyaksikan kalimat *Modal Awal : dan data yang berisi di x yaitu 100000000<p>
+- ketikan program untuk i in lb :<p>
+for i in lb : looping for index i dengan mengambil data dari lb.<p>
+- ketikan program sum=sum+i<p>
+sum=sum+i rumus untuk menghitung total laba perbulan.<p>
+- kapann program y+1<p>
+ y+=1, masa bulan tiap perulangan menambah 1.<p>
+- print('Laba Bulan Ke-', y ,'Sebesar :',i)<p>
+print('Laba Bulan Ke-', y ,'Sebesar :',i) print : y = ambil masa bulan, i = ambil dari data yang ada di dalam lb.<p>
+- print('JUMLAH LABA YANG DI DAPAT ADALAH :',jumlah)<p>
+ print('TOTAL LABA YANG DI DAPAT ADALAH :',jumlah) print total laba.<p>
 
 
 
