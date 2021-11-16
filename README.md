@@ -179,4 +179,117 @@ penjelasan:<p>
 - jika A > B,maka ada 2 kadidat bilangan terbesar,yaitu A dan C sehingga perlu dilakukan pengujian yang lebih besar dari A dan C dengan membandingkan nilai B dan C. jika nilai B ternyata lebih besar dari C, maka bilangan terbesar adalah A.nilai terbesar adalah C jika ternyata C lebih besar dari A.<p>
 - .jika kondisi A > B tidak terpenuhui(atau B <=A),maka 2 kadidat bilangan terbesar adalah B dan C.jika nilai C ternyata lebih kecil dari A,maka B adalah nilai terbesar,sedangkan jika C yang lebih besar dari B ,maka yang terbesar adalah C.<p>
 
+# LABPY03
+## LATIHAN 1 
+### Tampilkan n bilangan acak yang lebih kecil dari 0.5.
+### nilai n diisi pada saat runtime
+### anda bisa menggunakan kombinasi while dan for untuk menyelesaikannya
+### gunakan fungsi random() yang dapat diimport terlebih dahulu
+
+berikut ini adalah programnya <p>
+![gambar8](ssgambar/ss8.png.png)
+
+berikut ini adalah program saat running<p>
+![gambar9](ssgambar/ss9.png.png)
+
+berikut ini adalah flowchart dari program tersebut<p>
+![gambar10](ssgambar/ss10.png.png)
+
+penjelasan<p>
+- menggunakan  modul import random untuk membuat bilangan acak<p>
+- Untuk menentukan jumlah input yang diinginkan dan konversi ke dalam bilangan bulat (integer) yang dimasukan ke variabel(n), n = int(input("masukkan nilai;"))<p>
+- untuk membuat urutan dari inputan tersebut mengunakan a=0 ,a+=1 yang menandakan urutan tersebut dimulai dari 1 dan ditambah 1 <p>
+- untuk membuat rentang retret yang diinputkan oleh variabel (n) ,for c in range (n): <p>
+- Untuk menampilkan urutan data sesuai jumlah inputan dengan hasil di bawah 0.5<p>
+    a+= 1<p>
+   b = random.uniform(.0,.5)<p>
+    print('data ke:', a, '==>', b)<p>
+
+## LATIHAN 2
+### Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan. Masukkan angka 0 untuk berhenti.
+
+berikut ini adalah programnya <p>
+![gambar20](ssgambar/ss20.png.png)
+
+berikut ini adalah program saat running<p>
+![gambar21](ssgambar/ss21.png.png)
+
+berikut ini flowchart dari program<p>
+![gambar22](ssgambar/ss22.png.png)
+
+pseudocode<p>
+- maks=0 variabel maks diisi 0.<p>
+- while True : perulangan while dengan syarat True.<p>
+- if max < a: max = suatu proses jika untuk mencari nilai terbesar.<p>
+- a = int(input('Masukan bilangan = ')) input nilai a dengan tipe data integer.<p>
+- if a==0 : break jika inputan diisi angka 0 maka break alias berhenti looping.<p>
+- print('Bilangan terbesarnya adalah = ',max) print nilai terbesar, variabel max<p>
+
+penjelasan<p>
+Ketikan Program maks= 0<p>
+- max= 0 kode max disini untuk menentukan nilai max nya dalah 0<p>
+Ketikan Program saat benar :<p>
+- while true: Untuk perulangan hingga waktu yang tidak ditentukan atau selamanya<p>
+Ketikan Program a=int(input("Masukan Bilangan :"))<p>
+- a=int(input("Masukan Bilangan :")) a untuk menginput tipe data interger ( bilangan bulat )<p>
+Program ketikan jika max < a<p>
+Ketikan Program max=a<p>
+- if max < a max=a jika max kurang dari a maka max = a<p>
+Program ketikan jika a==0 :<p>
+Ketikan Program istirahat<p>
+- if a==0: break jika a= 0 maka akan berhenti dengan syarat break yang terpenuhi<p>
+Ketikan Program print("Bilangan Tebesarnya Adalah :", max)<p>
+- print("Bilangan Tebesarnya Adalah :", max)*Bilangan Tebesar Adalah : Nilai maxiumnya<p>
+
+## PROGRAM 1
+### Buat repository baru labpy03
+### Masukkan latihan1.py dan latihan2.py ke dalam repository.
+### Buat program sederhana dengan perulangan: program1.py Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%, selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
+### buat file README.md, yang berisi penjelasan alur algoritma program latihan1.py, latihan2.py, dan program1.py beserta screenshot hasilnya.
+### kemudian commit dan push ke repository (github)
+### kirim url repository ke classroom.
+
+berikut ini adalah programnya <p>
+![gambar23](ssgambar/ss23.png.png)
+
+berikut ini adalah program saat running<p>
+![gambar24](ssgambar/ss24.png.png)
+
+berikut ini flowchart dari program<p>
+![gambar25](ssgambar/ss25.png.png)
+
+pseudocode<p>
+- x=100000000 modal 100.000.000, variabel x.<p>
+- sum=0 variabel untuk menjumlah total laba.<p>
+- y=0 variabel untuk masa bulan.<p>
+- lb = [int(0), int(0), int(a) * .1, int(a) * .1, int(a) * .5, int(a) * .5, int(a) * .5, int(a) * .2] variabel untuk jumlah laba perbulan, dipisahkan dengan koma dan tipe data integer.<p>
+- for i in lb : looping for index i dengan mengambil data dari lb.<p>
+- sum=sum+i rumus untuk menghitung total laba perbulan.<p>
+- y+=1 masa bulan, tiap looping menambah 1.<p>
+- print('Laba Bulan Ke-', y ,'Sebesar :',y) print : y = ambil masa bulan, i = ambil dari data yang ada di dalam lb.<p>
+- print('TOTAL LABA YANG DI DAPAT ADALAH :',sum) print total laba.<p>
+
+penjelasan<p>
+program ketikan<p>
+- x=100000000 modal 100.000.000, variabel x.<p>
+Ketikan jumlah program=0<p>
+- sum=0 kode sum disini untuk menentukan jumlah total laba<p>
+program kapan<p>
+- y=0 y= untuk variabel masa bulan<p>
+ketikan program lb = [int(0), int(0), int(x) * .1, int(x) * .1, int(x) * .5, int(x) * .5, int(x )* .5, int(x) * .2]<p>
+- lb = [int(0), int(0), int(x) * .1, int(x) * .1, int(x) * .5, int(x) * .5, int(x )* .5, int(x) * .2] Untuk Mendeklarasikan presentase laba tiap bulan dan di kali dengan x atau data inputan modal investasi yaitu 100000000<p>
+ketikan program print("Modal Awal Seorang Pengusaha :',x")<p>
+- print(" Modal Awal Seorang Pengusaha :',x") menyaksikan kalimat *Modal Awal : dan data yang berisi di x yaitu 100000000<p>
+ketikan program untuk i in lb :<p>
+- for i in lb : looping for index i dengan mengambil data dari lb.<p>
+ketikan program sum=sum+i<p>
+- sum=sum+i rumus untuk menghitung total laba perbulan.<p>
+kapann program y+1<p>
+- y+=1, masa bulan tiap perulangan menambah 1.<p>
+print('Laba Bulan Ke-', y ,'Sebesar :',i)<p>
+- print('Laba Bulan Ke-', y ,'Sebesar :',i) print : y = ambil masa bulan, i = ambil dari data yang ada di dalam lb.<p>
+print('JUMLAH LABA YANG DI DAPAT ADALAH :',jumlah)<p>
+- print('TOTAL LABA YANG DI DAPAT ADALAH :',jumlah) print total laba.<p>
+
+
 
